@@ -1,0 +1,62 @@
+@import "./styles/iconfont.wxss";
+
+page,
+view,
+text,
+swiper,
+swiper-item,
+navigator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "logotype";
+  /* Project id 2942108 */
+  src: url("https://636c-cloud1-5g08f6dkc9d1e16a-1307955925.tcb.qcloud.la/font-face/%E6%96%B9%E6%AD%A3%E5%AD%97%E8%BF%B9%20-%20%E9%82%A2%E4%BD%93%E8%8D%89%E4%B9%A6%E7%B9%81%E4%BD%93.ttf");
+}
+
+page {
+  /* 定义主题颜色 */
+  -themecolor: #ffda89;
+  /* 定义字体 */
+  font-family: "STXingkai";
+  /* 定义大小 */
+  font-size: 28rpx;
+}
+.menu {
+  margin-top: 20%;
+  font-family: "STXingkai";
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row_around {
+  justify-content: space-around;
+}
+
+.row_between {
+  justify-content: space-between;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/* 搜索框 */
+SearchInput{
+  width: 86%;
+}

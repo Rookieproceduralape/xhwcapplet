@@ -1,0 +1,638 @@
+{
+  "message": [
+    {
+      "cat_id": 1,
+      "cat_name": "民间文学",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 2,
+          "cat_name": "神话",
+          "cat_pid": 1,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 3,
+          "cat_name": "故事",
+          "cat_pid": 1,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 4,
+          "cat_name": "歌谣",
+          "cat_pid": 1,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 5,
+          "cat_name": "史诗 长诗",
+          "cat_pid": 1,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 6,
+          "cat_name": "谚语 成语",
+          "cat_pid": 1,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 7,
+          "cat_name": "其他",
+          "cat_pid": 1,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 8,
+      "cat_name": "传统音乐",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 9,
+          "cat_name": "民歌",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 10,
+          "cat_name": "器乐",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 11,
+          "cat_name": "舞蹈音乐",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 12,
+          "cat_name": "戏曲音乐",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 13,
+          "cat_name": "曲艺音乐",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 14,
+          "cat_name": "道教音乐",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 15,
+          "cat_name": "佛教音乐",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 16,
+          "cat_name": "其他",
+          "cat_pid": 8,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 17,
+      "cat_name": "传统舞蹈",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 18,
+          "cat_name": "生活习俗舞蹈",
+          "cat_pid": 17,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 19,
+          "cat_name": "岁时节令舞蹈",
+          "cat_pid": 17,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 20,
+          "cat_name": "人生礼仪舞蹈",
+          "cat_pid": 17,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 21,
+          "cat_name": "宗教信仰舞蹈",
+          "cat_pid": 17,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 22,
+          "cat_name": "生产习俗舞蹈",
+          "cat_pid": 17,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 23,
+          "cat_name": "其他",
+          "cat_pid": 17,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 24,
+      "cat_name": "传统戏剧",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 25,
+          "cat_name": "戏曲",
+          "cat_pid": 24,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 26,
+          "cat_name": "话剧",
+          "cat_pid": 24,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 27,
+          "cat_name": "歌剧",
+          "cat_pid": 24,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 28,
+          "cat_name": "舞剧",
+          "cat_pid": 24,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 29,
+          "cat_name": "其他",
+          "cat_pid": 24,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 30,
+      "cat_name": "曲艺",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 31,
+          "cat_name": "说书",
+          "cat_pid": 30,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 32,
+          "cat_name": "唱曲",
+          "cat_pid": 30,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 33,
+          "cat_name": "谐谑",
+          "cat_pid": 30,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 34,
+          "cat_name": "相声",
+          "cat_pid": 30,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 35,
+          "cat_name": "其他",
+          "cat_pid": 30,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 36,
+      "cat_name": "体育与杂技",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 37,
+          "cat_name": "体育与杂技",
+          "cat_pid": 36,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 38,
+          "cat_name": "游戏",
+          "cat_pid": 36,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 39,
+          "cat_name": "杂技 魔术",
+          "cat_pid": 36,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 40,
+          "cat_name": "其他",
+          "cat_pid": 36,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 41,
+      "cat_name": "传统美术",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 42,
+          "cat_name": "汉字书法",
+          "cat_pid": 41,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 43,
+          "cat_name": "绘画",
+          "cat_pid": 41,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 44,
+          "cat_name": "雕塑",
+          "cat_pid": 41,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 45,
+          "cat_name": "工艺",
+          "cat_pid": 41,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 46,
+          "cat_name": "建筑",
+          "cat_pid": 41,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 47,
+          "cat_name": "其他",
+          "cat_pid": 41,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 48,
+      "cat_name": "传统技艺",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 49,
+          "cat_name": "工具 机械制作",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 50,
+          "cat_name": "农畜产品加工",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 51,
+          "cat_name": "烧造",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 52,
+          "cat_name": "织染缝纫",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 53,
+          "cat_name": "金属工艺",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 54,
+          "cat_name": "髹漆",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 55,
+          "cat_name": "造纸印刷 装帧",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 56,
+          "cat_name": "美食",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 57,
+          "cat_name": "其他",
+          "cat_pid": 48,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 58,
+      "cat_name": "传统医药",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 59,
+          "cat_name": "医",
+          "cat_pid": 58,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 60,
+          "cat_name": "药",
+          "cat_pid": 58,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 61,
+      "cat_name": "民俗",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 62,
+          "cat_name": "生产商贸习俗",
+         "cat_pid": 61,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 63,
+          "cat_name": "消费习俗",
+         "cat_pid": 61,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 64,
+          "cat_name": "民间信仰",
+         "cat_pid": 61,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 65,
+          "cat_name": "人生礼俗",
+         "cat_pid": 61,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 66,
+          "cat_name": "岁时节气",
+         "cat_pid": 61,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 67,
+          "cat_name": "民间知识",
+         "cat_pid": 61,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 68,
+          "cat_name": "其他",
+         "cat_pid": 61,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    },
+    {
+      "cat_id": 69,
+      "cat_name": "传统美食",
+      "cat_pid": 0,
+      "cat_level": 0,
+      "cat_deleted": false,
+      "cat_icon": "",
+      "children": [
+        {
+          "cat_id": 70,
+          "cat_name": "四川美食",
+         "cat_pid": 69,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 71,
+          "cat_name": "广东美食",
+         "cat_pid": 69,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 72,
+          "cat_name": "湖北美食",
+         "cat_pid": 69,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 73,
+          "cat_name": "陕西美食",
+         "cat_pid": 69,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 74,
+          "cat_name": "上海美食",
+         "cat_pid": 69,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 75,
+          "cat_name": "长沙美食",
+         "cat_pid": 69,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        },
+        {
+          "cat_id": 76,
+          "cat_name": "其他美食",
+         "cat_pid": 69,
+          "cat_level": 1,
+          "cat_deleted": false,
+          "cat_icon": ""
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "msg": "获取成功",
+    "status": 200
+  }
+}

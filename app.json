@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/category/category",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/seek/seek",
+    "pages/mine/mine",
+    "pages/feefback/feefback",
+    "pages/pay/pay",
+    "pages/loin/loin"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffda89",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "薪火文创",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#e0620d",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icons/tabber_home.png",
+        "selectedIconPath": "/icons/tabber_home_ac.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商店",
+        "iconPath": "/icons/tabber_shop.png",
+        "selectedIconPath": "/icons/tabber_shop_ac.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/icons/category.png",
+        "selectedIconPath": "/icons/category_ac.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/icons/tabber_shoppingcar.png",
+        "selectedIconPath": "/icons/tabber_shoppingcar_ac.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/icons/tabber_mine.png",
+        "selectedIconPath": "/icons/tabber_mine_ac.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
