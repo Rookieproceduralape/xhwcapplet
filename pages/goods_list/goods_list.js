@@ -68,7 +68,7 @@
   
     // 获取商品列表数据
     async getGoodsList(){
-      const res=await request({url:"/goods/search",data:this.QueryParams});
+      const res=await request({url:"https://api-hmugo-web.itheima.net/api/public/v1/goods/search",data:this.QueryParams});
       // 获取 总条数
       const total=res.total;
       // 计算总页数

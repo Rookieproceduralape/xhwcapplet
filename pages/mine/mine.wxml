@@ -31,55 +31,20 @@
       </block>
     </view>
   </view>
-  <image class="banner_image" src="/static/mine/banner.png" mode="widthFix"></image>
+  <image class="banner_image" src="{{icon.banner}}" mode="widthFix"></image>
   <view class="middle column">
-    <view class="middle_item">
+    <view class="middle_item" wx:for="{{buttomlist}}">
       <view class="row row_around">
         <view class="row row_around_item">
-          <image class="middle_image" src="/static/mine/middle_img1.png"></image>
+          <image class="middle_image" src="{{item.image}}"></image>
+          <text class="middle_text">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="row row_around">
+        <image class="right_icon" src="{{icon.right}}"></image>
+      </view>
+    </view>
 
-          <text class="middle_text">瓜子</text>
-        </view>
-      </view>
-      <view class="row row_around">
-        <text class="middle_time">请登录</text>
-        <image class="right_icon" src="/static/news/news_right.png"></image>
-      </view>
-    </view>
-    <view class="middle_item">
-      <view class="row row_around">
-        <view class="row row_around_item">
-          <image class="middle_image" src="/static/mine/middle_img2.png"></image>
-          <text class="middle_text">个人信息</text>
-        </view>
-      </view>
-      <view class="row row_around">
-        <image class="right_icon" src="/static/news/news_right.png"></image>
-      </view>
-    </view>
-    <view class="middle_item">
-      <view class="row row_around">
-        <view class="row row_around_item">
-          <image class="middle_image" src="/static/mine/middle_img3.png"></image>
-          <text class="middle_text">设置</text>
-        </view>
-      </view>
-      <view class="row row_around">
-        <image class="right_icon" src="/static/news/news_right.png"></image>
-      </view>
-    </view>
-    <view class="middle_item">
-      <view class="row row_around">
-        <view class="row row_around_item">
-          <image class="middle_image" src="/static/mine/middle_img4.png"></image>
-          <text class="middle_text">在线客服</text>
-          <text class="middle_time">人工客服时间：9：00-22：00</text>
-        </view>
-      </view>
-      <view class="row row_around">
-        <image class="right_icon" src="/static/news/news_right.png"></image>
-      </view>
-    </view>
   </view>
 </view>
 <!-- 遮罩层 -->

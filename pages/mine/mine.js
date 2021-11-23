@@ -6,15 +6,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-    head:{
-      text:"登录/注册",
-      image:"https://636c-cloud1-5g08f6dkc9d1e16a-1307955925.tcb.qcloud.la/image/mine/head.png",
-      bgimg:"https://636c-cloud1-5g08f6dkc9d1e16a-1307955925.tcb.qcloud.la/image/mine/bgimg.png"
+    head: {
+      text: "登录/注册",
+      image: "https://636c-cloud1-5g08f6dkc9d1e16a-1307955925.tcb.qcloud.la/image/mine/head.png",
+      bgimg: "https://636c-cloud1-5g08f6dkc9d1e16a-1307955925.tcb.qcloud.la/image/mine/bgimg.png"
     },
-    midlist:[],
+    midlist: [],
     userInfo: null,
     name: "",
-    mine_image_path: ""
+    mine_image_path: "",
+    icon: {
+      banner: "https://636c-cloud1-5g08f6dkc9d1e16a-1307955925.tcb.qcloud.la/image/mine/banner4.png",
+      right:"https://636c-cloud1-5g08f6dkc9d1e16a-1307955925.tcb.qcloud.la/image/mine/news_right.png"
+    },
+    buttomlist:[],
   },
   // 点击登录，跳出授权
   onClickObtainn: function () {
@@ -121,7 +126,7 @@ Page({
   },
   jumpLoin: function () {
     var that = this;
-    wx.navigateTo({ url: '/pages/loin/loin?name='+that.data.name+ '&mine_image_path=' + that.data.mine_image_path});
+    wx.navigateTo({ url: '/pages/loin/loin?name=' + that.data.name + '&mine_image_path=' + that.data.mine_image_path });
     this.hideModalNum();
   },
   /**
@@ -134,12 +139,23 @@ Page({
     })
     const db = wx.cloud.database()  //获取数据库的引用
     const _ = db.command     //获取数据库查询及更新指令
-      db.collection("image_list").limit(10)  //获取集合的引用
+    db.collection("image_list").limit(10)  //获取集合的引用
       .get()
       .then(res => {
         console.log("请求成功", res.data);
         this.setData({
           midlist: res.data
+        })
+      })
+      .catch(err => {
+        console.log("请求失败", err);
+      })
+      db.collection("image_list").limit(4).skip(30)  //获取集合的引用
+      .get()
+      .then(res => {
+        console.log("请求成功", res.data);
+        this.setData({
+          buttomlist: res.data
         })
       })
       .catch(err => {
