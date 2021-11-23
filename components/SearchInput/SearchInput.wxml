@@ -1,0 +1,4 @@
+<view class='search'>
+  <input type='text' placeholder='苏绣汉服' bindtap='inputBind'></input>
+  <image src='{{searchimg}}' bindtap='query' mode="widthFix"></image>
+</view>

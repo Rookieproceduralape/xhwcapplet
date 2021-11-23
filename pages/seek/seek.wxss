@@ -1,0 +1,105 @@
+/* 容器样式 */
+.menu {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 历史搜索 */
+.history {
+  width: 100%;
+}
+.history_title image {
+  width: 50rpx;
+}
+/* 热门搜索标题 */
+.search_title {
+  width: 90%;
+  text-align: left;
+  margin: 20rpx 0;
+}
+/* 热门搜索 */
+.search_text {
+  padding: 20rpx 30rpx;
+  background: #f5f4f4;
+  border-radius: 100rpx;
+  margin: 20rpx;
+}
+/* 热门搜索文字 */
+.search_text text {
+  font-size: 26rpx;
+}
+/* 火 */
+.search_text image {
+  width: 30rpx;
+  padding-right: 10rpx;
+}
+/* 热门专题图片 */
+.hot_topic image {
+  width: 300rpx;
+  border-radius: 30rpx;
+  margin: 10rpx;
+}
+/* 搜索框样式 */
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 80rpx;
+  background-color: #ffffff;
+  border: 1rpx solid #cdcdcd;
+  border-radius: 40rpx;
+  margin: 30rpx 0;
+}
+
+/* 搜索框提示文字样式 */
+.search input {
+  width: 80%;
+  font-size: 27rpx;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 30rpx;
+  margin-left: 20rpx;
+}
+
+/* 搜索框小图标 */
+.search image {
+  width: 40rpx;
+  padding-left: 20rpx;
+}
+
+.none {
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.none image {
+  width: 300rpx;
+}
+.swiper_con {
+  width: 96%;
+  margin-left: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swiper_con_view {
+  width: 48%;
+  height: 530rpx;
+  background-color: white;
+  margin: 10rpx 0;
+}
+
+.swiper_con_view:nth-child(even) {
+  margin-left: 4%;
+}
+
+.swiper_con_view_view {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}

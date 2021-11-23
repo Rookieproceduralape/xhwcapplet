@@ -1,0 +1,156 @@
+/* pages/mine/mine.wxss */
+page {
+  background-color: #f7f7f5;
+}
+.header-bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: -3%;
+}
+.menu {
+  margin-top: 13%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.mine {
+  width: 90%;
+  margin: 20rpx 0 10% 0;
+  font-size: 45rpx;
+  color: #fff;
+}
+.mine image {
+  width: 130rpx;
+  margin-right: 30rpx;
+  border-radius: 50%;
+  margin-left: 8rpx;
+}
+.mine_border {
+  width: 144rpx;
+  height: 144rpx;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+.mid {
+  width: 90%;
+  margin-bottom: 30rpx;
+}
+.midlist {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 30rpx;
+  padding: 40rpx 0;
+  margin-top: 40rpx;
+}
+.midlist_item {
+  font-family: "KaiTi";
+  font-size: 24rpx;
+}
+.midlist_item image {
+  width: 60rpx;
+  margin-bottom: 20rpx;
+}
+.banner_image {
+  width: 88%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.top_botoom_text {
+  font-size: 26rpx;
+  font-family: "STXingkai";
+}
+.middle {
+  margin-top: 60rpx;
+}
+.middle_item {
+  width: 620rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50rpx;
+}
+.right_icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+.middle_image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.middle_text {
+  font-family: "STXingkai";
+}
+.middle_time {
+  font-size: 20rpx;
+  color: #8a8a8a;
+  font-family: "KaiTi";
+  margin-left: 10rpx;
+}
+/*遮罩层*/
+.commodity_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 1000;
+  color: #fff;
+}
+/*对话框 */
+.commodity_attr_box {
+  height: 410rpx;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: #fff;
+  padding-top: 20rpx;
+  border-radius: 40rpx 40rpx 0 0;
+}
+/* 微信登录授权 */
+.obtainn {
+  padding: 5%;
+}
+.obtainn_title {
+  width: 100%;
+  font-family: "STKaiti";
+  font-size: 50rpx;
+  margin-top: 30rpx;
+}
+.obtainn_text {
+  font-family: "KaiTi";
+  font-size: 32rpx;
+  margin-top: 20rpx;
+}
+/* 微信登录授权按钮 */
+.obtainn_button {
+  height: 90rpx;
+  width: 100%;
+  border-radius: 45rpx;
+  background-color: #08c05e;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+}
+.obtainn_image {
+  width: 37rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}

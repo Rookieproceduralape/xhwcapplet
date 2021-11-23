@@ -1,0 +1,5 @@
+<!--pages/shop/shop.wxml-->
+<image src='{{bgimg}}' mode="widthFix" class="bgimg"></image>
+<view class="container">
+
+</view>

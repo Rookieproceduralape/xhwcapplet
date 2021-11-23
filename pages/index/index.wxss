@@ -1,0 +1,35 @@
+
+.top_list {
+  width: 90%;
+  margin: 20rpx 0;
+}
+
+
+.top_list image {
+  width: 80rpx;
+}
+
+.top_list text {
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+  font-family: "KaiTi";
+}
+
+
+/* 轮播图 */
+swiper {
+  margin-top: 10rpx;
+  width: 90%;
+}
+
+swiper-item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide-image {
+  width: 98%;
+  border-radius: 15px;
+}

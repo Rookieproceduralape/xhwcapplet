@@ -1,0 +1,109 @@
+<!--pages/mine/mine.wxml-->
+<image class="header-bg" src="{{head.bgimg}}" mode="widthFix"></image>
+<view class="menu column">
+  <view class="mine row">
+    <view class="mine_border"></view>
+    <image wx:if="{{userInfo}}" src="{{userInfo.avatarUrl}}" mode="widthFix"></image>
+    <image wx:else="{{userInfo}}" src="{{head.image}}" bindtap="uploadImage" mode="widthFix">
+    </image>
+    <view class="row" wx:if="{{userInfo}}">
+      <view bindtap="onClickLogout">{{userInfo.nickName}}</view>
+    </view>
+    <view class="row" wx:else="{{userInfo}}">
+      <text bindtap="onClickObtainn">{{head.text}}</text>
+    </view>
+  </view>
+  <view class="mid column">
+    <view class="midlist row row_around">
+      <block wx:for="{{midlist}}" wx:if="{{index<5}}">
+        <view class="midlist_item column">
+          <image src='{{item.image}}' mode="widthFix"></image>
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+    <view class="midlist row row_around">
+      <block wx:for="{{midlist}}" wx:if="{{index>4}}">
+        <view class="midlist_item column">
+          <image src='{{item.image}}' mode="widthFix"></image>
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <image class="banner_image" src="/static/mine/banner.png" mode="widthFix"></image>
+  <view class="middle column">
+    <view class="middle_item">
+      <view class="row row_around">
+        <view class="row row_around_item">
+          <image class="middle_image" src="/static/mine/middle_img1.png"></image>
+
+          <text class="middle_text">瓜子</text>
+        </view>
+      </view>
+      <view class="row row_around">
+        <text class="middle_time">请登录</text>
+        <image class="right_icon" src="/static/news/news_right.png"></image>
+      </view>
+    </view>
+    <view class="middle_item">
+      <view class="row row_around">
+        <view class="row row_around_item">
+          <image class="middle_image" src="/static/mine/middle_img2.png"></image>
+          <text class="middle_text">个人信息</text>
+        </view>
+      </view>
+      <view class="row row_around">
+        <image class="right_icon" src="/static/news/news_right.png"></image>
+      </view>
+    </view>
+    <view class="middle_item">
+      <view class="row row_around">
+        <view class="row row_around_item">
+          <image class="middle_image" src="/static/mine/middle_img3.png"></image>
+          <text class="middle_text">设置</text>
+        </view>
+      </view>
+      <view class="row row_around">
+        <image class="right_icon" src="/static/news/news_right.png"></image>
+      </view>
+    </view>
+    <view class="middle_item">
+      <view class="row row_around">
+        <view class="row row_around_item">
+          <image class="middle_image" src="/static/mine/middle_img4.png"></image>
+          <text class="middle_text">在线客服</text>
+          <text class="middle_time">人工客服时间：9：00-22：00</text>
+        </view>
+      </view>
+      <view class="row row_around">
+        <image class="right_icon" src="/static/news/news_right.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 遮罩层 -->
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+<!--授权弹出框 -->
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+  <view class="obtainn column">
+    <view class="obtainn_title">请授权登录</view>
+    <view class="obtainn_text">为了更好地为您提供服务，请允许微信授权后再使用功能</view>
+    <view bindtap="getUserProfile" class="obtainn_button">
+      <image src="/static/mine/weixin.png" class="obtainn_image" mode="widthFix"></image>
+      微信登录授权
+    </view>
+  </view>
+</view>
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatistics}}"></view>
+<!--手机号弹出框 -->
+<view animation="{{animationNum}}" class="commodity_attr_box" wx:if="{{showModalStatistics}}">
+  <view class="obtainn">
+    <view class="obtainn_title">绑定手机号</view>
+    <view class="obtainn_text">为了您账号的安全性和一致性，请先绑定手机号，再使用相关功能</view>
+    <view bindtap="jumpLoin" class="obtainn_button">
+      <image src="/static/mine/weixin.png" class="obtainn_image" mode="widthFix"></image>
+      手机号授权
+    </view>
+  </view>
+</view>

@@ -1,0 +1,63 @@
+<!--pages/seek/seek.wxml-->
+<view class="menu">
+  <view class='search'>
+    <image src='{{icon.searchimg}}' bindtap='search' mode="widthFix"></image>
+    <input type='text' placeholder='油纸伞' confirm-type='search' value="{{shoopingtext}}" bindinput="shoppinginput"
+      bindconfirm='query' bindtap="clickinput">
+    </input>
+  </view>
+  <view class="none" wx:if="{{noneview}}" >
+      <image src="{{icon.sorry}}" mode="widthFix"></image>
+      <text>抱歉，没有相关商品</text>
+  </view>
+  <view class='swiper_con' wx:if="{{shoppinglist}}">
+      <view class='swiper_con_view' wx:for="{{shoopingarray}}" wx:key="id" wx:if='{{item.status=="1"?true:false}}'>
+          <image src="{{item.images}}" mode="widthFix" style="width:100%" data-status="{{item.status}}"></image>
+          <view style="width:90%;margin:5%;">
+              <text style="font-size:24rpx">{{item.title}}</text>
+              <view class="swiper_con_view_view">
+                  <view style="width:80%;">
+                      <text style="font-size:24rpx;color:red;">￥{{item.money}}</text>
+                      <text style="font-size:18rpx;color:#B8B8B8;margin-left:5%;">已售{{item.sold}}</text>
+                    </view>
+                  <image src="/images/cart.png" mode="widthFix" style="width:10%;position:relative;left:8%;"></image>
+                </view>
+            </view>
+        </view>
+  </view>
+  <view wx:if="{{history}}" class="history">
+      <view class="history_title row row_between">
+          <text>历史搜索</text>
+          <image src="{{icon.rubbish}}" bindtap="cleanhistory" mode="widthFix"></image>
+        </view>
+    <view class="wrap">
+      <block wx:for="{{newArray}}">
+          <view class="search_text row">
+             <text wx:key="key" data-text="{{item}}" bindtap="textfz">{{item}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  
+  <text class="search_title">热门搜索</text>
+  <view class="wrap">
+    <block wx:for="{{firetext}}">
+      <view class="search_text row">
+        <image src='{{icon.fireimg}}' mode="widthFix"></image>
+        <text wx:key="key" data-text="{{item}}" bindtap="textfz">{{item}}</text>
+      </view>
+    </block>
+    <block wx:for="{{hottext}}">
+      <view class="search_text row">
+        <text class="" wx:key="key" data-text="{{item}}" bindtap="textfz">{{item}}</text>
+      </view>
+    </block>
+
+  </view>
+  <text class="search_title">热门专题</text>
+  <view class="hot_topic wrap">
+    <block wx:for="{{hotimg}}">
+      <image class="" src="{{item.image}}" mode="widthFix"></image>
+    </block>
+  </view>
+</view>

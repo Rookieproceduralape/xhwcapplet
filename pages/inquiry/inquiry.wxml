@@ -1,0 +1,182 @@
+<!--pages/inquiry/inquiry.wxml-->
+<text class="inquiry_title">问医生</text>
+<view class="menu">
+  <view class='search'>
+    <image class="" src='/static/index/search.png' bindtap='query'></image>
+    <input type='text' placeholder='症状、疾病、医院、科室、医生' confirm-type='search' value="{{inputValue}}" bindinput='inputBind'
+      bindconfirm='query'></input>
+  </view>
+  <view class="top">
+    <image class="top_image" src="/static/inquiry/top-image.png"></image>
+  </view>
+  <view class="midden">
+    <image class="midden_image" src="/static/inquiry/mid2.png"></image>
+    <image class="midden_image" src="/static/inquiry/mid1.png"></image>
+  </view>
+  <text class="department_title">常见科室</text>
+  <view class="department">
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/皮肤科.png"></image>
+        <text class="department_text">皮肤科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/儿科.png"></image>
+        <text class="department_text">儿科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/妇科.png"></image>
+        <text class="department_text">妇科</text>
+      </view>
+    </view>
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/产科.png"></image>
+        <text class="department_text">产科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/泌尿外科.png"></image>
+        <text class="department_text">泌尿外科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/骨科.png"></image>
+        <text class="department_text">骨科</text>
+      </view>
+    </view>
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/消化内科.png"></image>
+        <text class="department_text">消化内科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/口腔科.png"></image>
+        <text class="department_text">口腔科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/耳鼻咽喉科.png"></image>
+        <text class="department_text">耳鼻咽喉科</text>
+      </view>
+    </view>
+  </view>
+  <text class="department_title">内科</text>
+  <view class="department">
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/呼吸内科.png"></image>
+        <text class="department_text">呼吸内科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/普通内科.png"></image>
+        <text class="department_text">普通内科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/感染科.png"></image>
+        <text class="department_text">感染科 传染科</text>
+      </view>
+    </view>
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/内分泌科.png"></image>
+        <text class="department_text">内分泌科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/心血管科.png"></image>
+        <text class="department_text">心血管科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/神经内科.png"></image>
+        <text class="department_text">神经内科</text>
+      </view>
+    </view>
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/肾脏内科.png"></image>
+        <text class="department_text">肾脏内科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/风湿免疫科.png"></image>
+        <text class="department_text">风湿免疫科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/血液科.png"></image>
+        <text class="department_text">血液科</text>
+      </view>
+    </view>
+  </view>
+  <text class="department_title">外科</text>
+  <view class="department">
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/神经外科.png"></image>
+        <text class="department_text">神经外科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/心胸外科.png"></image>
+        <text class="department_text">心胸外科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/肝胆胰腺外科.png"></image>
+        <text class="department_text">肝胆胰腺外科</text>
+      </view>
+    </view>
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/甲状腺乳腺外科.png"></image>
+        <text class="department_text">甲状腺乳腺...</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/普外科.png"></image>
+        <text class="department_text">普外科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/美容整形科.png"></image>
+        <text class="department_text">美容整形科</text>
+      </view>
+    </view>
+  </view>
+  <text class="department_title">其他</text>
+  <view class="department">
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/眼科.png"></image>
+        <text class="department_text">眼科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/性病科.png"></image>
+        <text class="department_text">性病科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/康复医学科.png"></image>
+        <text class="department_text">康复医学科</text>
+      </view>
+    </view>
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/精神心理科.png"></image>
+        <text class="department_text">精神心理科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/肿瘤科.png"></image>
+        <text class="department_text">肿瘤科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/影像检验科.png"></image>
+        <text class="department_text">影像检验科</text>
+      </view>
+    </view>
+    <view class="department_row">
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/疼痛科.png"></image>
+        <text class="department_text">疼痛科 麻醉科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/药剂科.png"></image>
+        <text class="department_text">药剂科</text>
+      </view>
+      <view class="department_item">
+        <image class="department_image" src="/static/inquiry/疫苗科.png"></image>
+        <text class="department_text">疫苗科</text>
+      </view>
+    </view>
+  </view>
+</view>
